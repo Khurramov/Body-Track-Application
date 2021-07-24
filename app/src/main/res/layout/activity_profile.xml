@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profileback"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:stateListAnimator="@android:anim/anticipate_interpolator"
+    android:visibility="visible"
+    tools:actionBarNavMode="tabs"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="218dp"
+        android:layout_height="76dp"
+        android:layout_above="@+id/logoutBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="502dp"
+        android:fontFamily="@font/black_ops_one"
+        android:text="You are LoggedIn as"
+        android:textAlignment="center"
+        android:textColor="#F8F5F5"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/emailTv"
+        android:layout_width="352dp"
+        android:layout_height="47dp"
+        android:layout_above="@+id/logoutBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="430dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="Email"
+        android:textColor="#FBFBFB"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/exerciseBtn"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="445dp"
+        android:background="@drawable/btn"
+        android:text="Exercises" />
+
+
+    <Button
+        android:id="@+id/dietBtn"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="445dp"
+        android:background="@drawable/btn"
+        android:text="BMI Calculator"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/DietBtn"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/btn"
+        android:text="Diet"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/reminderBtn"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/btn"
+        android:text="Reminder"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/groupBtn"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/btn"
+        android:text="Challenging Weight Group"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/AboutBtn"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/btn"
+        android:text="About"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="90dp"
+        android:text="Logout" />
+
+
+</RelativeLayout>

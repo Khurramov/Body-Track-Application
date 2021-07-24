@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bodytrack">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bodytrack">
+        <activity android:name=".groupthree3"></activity>
+        <activity android:name=".groupthree2" />
+        <activity android:name=".grouptwo3" />
+        <activity android:name=".grouptwo2" />
+        <activity android:name=".grouponel3" />
+        <activity android:name=".grouponel2" />
+        <activity android:name=".VideplayerMainActivity2" />
+        <activity android:name=".VideoplayerMainActivity" />
+        <activity android:name=".weeklyweight3" />
+        <activity android:name=".weeklyweight2" />
+        <activity android:name=".diettips3" />
+        <activity android:name=".diettips2" />
+        <activity android:name=".dailyexercises3" />
+        <activity android:name=".dailyexercises2" />
+        <activity android:name=".weeklyweight" />
+        <activity android:name=".diettips" />
+        <activity android:name=".dailyexercises" />
+        <activity android:name=".group3" />
+        <activity android:name=".group2" />
+        <activity android:name=".group1" />
+        <activity android:name=".joininggroup" />
+        <activity android:name=".destination" />
+        <activity android:name=".reminder" />
+        <activity android:name=".about" />
+        <activity android:name=".lose" />
+        <activity android:name=".gain" />
+        <activity android:name=".diet_page" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/mapi_key" />
+
+        <activity android:name=".map" />
+        <activity android:name=".bmi" />
+        <activity android:name=".exercise" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

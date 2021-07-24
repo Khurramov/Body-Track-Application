@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#1e1d1d"
+    tools:context=".bmi">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="45sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textSize="30sp"
+            android:textColor="#ffff">
+
+        </TextView>
+        <EditText
+            android:id="@+id/edweg"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:textSize="25sp"
+            android:hint="KG"
+            android:gravity="center"
+            android:layout_marginLeft="80dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textSize="30sp"
+            android:textColor="#ffff">
+
+        </TextView>
+        <EditText
+            android:id="@+id/edhei"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:textSize="25sp"
+            android:hint="CM"
+            android:gravity="center"
+            android:layout_marginLeft="80dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnres"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTintMode="src_in"
+        android:text="Result"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/txtenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Your Detail"
+        android:textColor="@color/white"
+        android:textColorHint="#DAD8D8"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="BMI = ?"
+        android:textColor="@color/white"
+        android:textColorHint="#DAD8D8"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnreset"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTintMode="src_in"
+        android:text="Reset"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

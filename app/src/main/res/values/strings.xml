@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">bodytrack</string>
+
+
+    <string name="google_map_api_key">AIzaSyDM7B2a5biSMQ-sVfgYoleIUYUngrEKI6w</string>
+    <string name="enter_address_city_or_zip_code">Enter Address </string>
+    <string name="todo">todo</string>
+    <string name="body_track_app">Body Track App</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="fullname">Fullname</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="mark_as_complete">Mark as Complete</string>
+    <string name="welcome_to_video_tutorials_for_level1">Welcome to Video tutorials for Level1</string>
+    <string name="welcome_to_video_tutorials_for_level2">Welcome to Video tutorials for Level2</string>
+    <string name="welcome_to_video_tutorials_for_level3">Welcome to Video tutorials for Level3</string>
+    <string name="video_url">Video url</string>
+    <string name="video_title">Video Title</string>
+    <string name="video_status_msg">You have already watched this video, you are now re-watching it!!</string>
+    <string name="not_watched_message">You have not watch this video, click Mark As Completed button to save you\'re progress!! Thank you!!</string>
+</resources>

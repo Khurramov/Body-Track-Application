@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".dailyexercises">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Diet Tips for Level1"
+            android:textColor="#FFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtubePlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:videoId="lwvTXmBJSnw"
+            app:showYouTubeButton="false"
+            app:showSeekBar="true"
+            app:showFullScreenButton="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.08"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+            android:id="@+id/youtubePlayerView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView"
+            app:layout_constraintVertical_bias="0.038"
+            app:showFullScreenButton="true"
+            app:showSeekBar="true"
+            app:showYouTubeButton="false"
+            app:videoId="2yv9OgITUhk"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+            android:id="@+id/youtubePlayerView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView2"
+            app:layout_constraintVertical_bias="0.038"
+            app:showFullScreenButton="true"
+            app:showSeekBar="true"
+            app:showYouTubeButton="false"
+            app:videoId="oPRrl-ZhrJQ"
+            tools:layout_editor_absoluteX="16dp" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+            android:id="@+id/youtubePlayerView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView3"
+            app:layout_constraintVertical_bias="0.038"
+            app:showFullScreenButton="true"
+            app:showSeekBar="true"
+            app:showYouTubeButton="false"
+            app:videoId="osqvOUJjaCo"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+            android:id="@+id/youtubePlayerView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView4"
+            app:layout_constraintVertical_bias="0.038"
+            app:showFullScreenButton="true"
+            app:showSeekBar="true"
+            app:showYouTubeButton="false"
+            app:videoId="dSSclUCeBQ4"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+            android:id="@+id/youtubePlayerView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView5"
+            app:layout_constraintVertical_bias="0.038"
+            app:showFullScreenButton="true"
+            app:showSeekBar="true"
+            app:showYouTubeButton="false"
+            app:videoId="Lh5vASqDOGU"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="5 Best Supplements to Build Muscle (FASTER)"
+            android:textColor="#FFFF"
+            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Which Supplements do I NEED to Take to Gain Muscle and Lose Fat"
+            android:textColor="#FFFF"
+            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView2" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="The Best Science-Based Diet to Build Lean Muscle (ALL MEALS SHOWN!)"
+            android:textColor="#FFFF"
+            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView3" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#FFFF"
+            android:text="The Best Meal Plan To Build Muscle Faster (EAT LIKE THIS!)"
+            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView4" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#FFFF"
+            android:text="9 Nutrition Rules for Building Muscle"
+            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView5" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="337dp"
+            android:text="The Perfect Diet For Building Muscle| Meal To Meal| Cooking Included"
+            android:textColor="#FFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView6"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

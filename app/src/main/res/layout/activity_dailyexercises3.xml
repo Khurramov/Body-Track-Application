@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeText"
+        android:text="@string/welcome_to_video_tutorials_for_level3"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ListView
+        android:id="@+id/videoList"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeText"
+        android:layout_marginTop="11dp"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        tools:ignore="SmallSp" />
+
+
+<!--    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+<!--            android:id="@+id/youtubePlayerView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:videoId="s8taXR3mYa8"-->
+<!--            app:showYouTubeButton="false"-->
+<!--            app:showSeekBar="true"-->
+<!--            app:showFullScreenButton="true"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.08"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+
+<!--            android:id="@+id/youtubePlayerView2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView"-->
+<!--            app:layout_constraintVertical_bias="0.038"-->
+<!--            app:showFullScreenButton="true"-->
+<!--            app:showSeekBar="true"-->
+<!--            app:showYouTubeButton="false"-->
+<!--            app:videoId="N0jSRnVe3P8"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+
+<!--            android:id="@+id/youtubePlayerView3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView2"-->
+<!--            app:layout_constraintVertical_bias="0.038"-->
+<!--            app:showFullScreenButton="true"-->
+<!--            app:showSeekBar="true"-->
+<!--            app:showYouTubeButton="false"-->
+<!--            app:videoId="kjs3A4LB5rY"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+<!--        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+
+<!--            android:id="@+id/youtubePlayerView4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView3"-->
+<!--            app:layout_constraintVertical_bias="0.038"-->
+<!--            app:showFullScreenButton="true"-->
+<!--            app:showSeekBar="true"-->
+<!--            app:showYouTubeButton="false"-->
+<!--            app:videoId="nB3TgvvPAYs"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+
+<!--            android:id="@+id/youtubePlayerView5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView4"-->
+<!--            app:layout_constraintVertical_bias="0.038"-->
+<!--            app:showFullScreenButton="true"-->
+<!--            app:showSeekBar="true"-->
+<!--            app:showYouTubeButton="false"-->
+<!--            app:videoId="P75kJNVu148"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+
+<!--            android:id="@+id/youtubePlayerView6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView5"-->
+<!--            app:layout_constraintVertical_bias="0.038"-->
+<!--            app:showFullScreenButton="true"-->
+<!--            app:showSeekBar="true"-->
+<!--            app:showYouTubeButton="false"-->
+<!--            app:videoId="Vj4py6iqKrM"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:text="9 Exercises To Build A Big Back - Gym Body Motivation"-->
+<!--            android:textColor="#FFFF"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView2"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView13"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:text="BICEPS WORKOUT WITH DUMBBELLS ONLY"-->
+<!--            android:textColor="#FFFF"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView3"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView2" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView14"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:text="9 Best Exercises for BIGGER SHOULDERS and TRAPS"-->
+<!--            android:textColor="#FFFF"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView4"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView15"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:text="8 EXERCISES TO BUILD A BIG BACK - GYM BODY MOTIVATION"-->
+<!--            android:textColor="#FFFF"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView5"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView4" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView16"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:text="CHEST AND TRICEP WORKOUT FOR MASS"-->
+<!--            android:textColor="#FFFF"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/youtubePlayerView6"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView5" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView17"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginEnd="337dp"-->
+<!--            android:text="UPPER BODY WORKOUT WITH DUMBELLS ONLY"-->
+<!--            android:textColor="#FFFF"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/youtubePlayerView6"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</RelativeLayout>
